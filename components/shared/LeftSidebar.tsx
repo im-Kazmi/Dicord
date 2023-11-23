@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "e:/Discord-clone/team-chat/components/ui/button";
 import { CiSearch } from "react-icons/ci";
 import { fakeChannels } from "@/constants";
 import Image from "next/image";
@@ -19,9 +18,9 @@ const LeftSidebar = () => {
               placeholder="Search Chat"
             />
           </div>
-          <Button className=" w-full bg-primary text-light-100 mt-2">
+          <button className=" w-full bg-primary text-light-100 mt-2">
             Start new chat
-          </Button>
+          </button>
         </div>
         <div className="flex  flex-col mt-3 gap-1">
           {fakeChannels.map((channel) => {
